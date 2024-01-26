@@ -1,0 +1,15 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: black;
+  height: auto;
+  padding: 4rem 0rem;
+
+  margin-top: 5rem;
+
+  h1 {
+    color: white;
+  }
+}
