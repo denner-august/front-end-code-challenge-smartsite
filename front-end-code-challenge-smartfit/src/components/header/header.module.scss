@@ -1,0 +1,27 @@
+.header {
+  padding: 3rem 0rem;
+  margin-bottom: 4rem;
+
+  background-color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h1,
+  p {
+    color: white;
+  }
+
+  span {
+    padding-bottom: 0.6rem;
+
+    color: #ffb612;
+    border-bottom: 0.5rem solid #ffb612;
+    border-radius: 2.4rem;
+  }
+}
