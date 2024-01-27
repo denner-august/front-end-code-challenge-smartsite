@@ -1,0 +1,29 @@
+.Container {
+  height: auto;
+
+  padding: 1rem;
+  margin: 2.3rem 0px;
+
+  color: var(--light-grey);
+
+  border: 3px solid;
+  border-color: var(--light-grey);
+  border-radius: 0.5rem;
+
+  h2 {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+
+    border-bottom: 0.1rem solid var(--light-grey);
+  }
+}
+
+.Container div {
+  display: flex;
+
+  margin-bottom: 1rem;
+
+  p {
+    margin: 0rem 1rem;
+  }
+}
