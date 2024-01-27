@@ -1,0 +1,25 @@
+.Horario {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1.5rem 0px;
+
+  border-bottom: 1px solid var(--light-grey);
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  ul {
+    display: flex;
+
+    input {
+      height: 2em;
+      width: 2em;
+
+      cursor: pointer;
+    }
+  }
+}
