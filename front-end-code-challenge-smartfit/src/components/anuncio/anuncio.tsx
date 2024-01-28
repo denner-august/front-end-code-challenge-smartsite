@@ -2,7 +2,7 @@ import styles from "./anuncio.module.scss";
 
 export function Anuncio() {
   return (
-    <div className={styles.anuncio}>
+    <main className={styles.anuncio}>
       <h1>Reabertura</h1>
       <p className={styles["titulo-p"]}>Smart Fit</p>
 
@@ -13,6 +13,6 @@ export function Anuncio() {
         de cada município. Por isso,confira aqui se a sua unidade está aberta e
         as medidas de segurança que estamos seguindo
       </p>
-    </div>
+    </main>
   );
 }
