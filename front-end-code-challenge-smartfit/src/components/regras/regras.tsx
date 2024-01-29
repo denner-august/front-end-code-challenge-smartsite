@@ -38,6 +38,7 @@ export function Regras() {
         imagem3={iconsRegras.Vestiario.imagem3}
         recomendado1={iconsRegras.Vestiario.recomendado1}
         recomendado2={iconsRegras.Vestiario.recomendado2}
+        recomendado3={iconsRegras.Vestiario.recomendado3}
       />
     </section>
   );
