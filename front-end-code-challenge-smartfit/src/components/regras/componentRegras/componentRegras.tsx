@@ -9,6 +9,7 @@ interface ComponentRegrasProsp {
   alt: string;
   recomendado1: string;
   recomendado2: string;
+  recomendado3?: string;
 }
 
 export function ComponentRegras({
@@ -19,6 +20,7 @@ export function ComponentRegras({
   alt,
   recomendado1,
   recomendado2,
+  recomendado3,
 }: ComponentRegrasProsp) {
   return (
     <div>
@@ -35,7 +37,7 @@ export function ComponentRegras({
         {!imagem3 ? null : (
           <li>
             <Image src={imagem3} alt={alt} height={65} width={65} />
-            <span>{recomendado2}</span>
+            <span>{recomendado3}</span>
           </li>
         )}
       </ul>
