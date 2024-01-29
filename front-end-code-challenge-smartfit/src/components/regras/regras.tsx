@@ -35,6 +35,7 @@ export function Regras() {
         alt={iconsRegras.Vestiario.alt}
         imagem1={iconsRegras.Vestiario.imagem1}
         imagem2={iconsRegras.Vestiario.imagem2}
+        imagem3={iconsRegras.Vestiario.imagem3}
         recomendado1={iconsRegras.Vestiario.recomendado1}
         recomendado2={iconsRegras.Vestiario.recomendado2}
       />
