@@ -44,5 +44,6 @@ export const iconsRegras = {
     alt: "Vestiario",
     recomendado1: "Obrigatório",
     recomendado2: "Recomendado",
+    recomendado3: "Fechado",
   },
 };
