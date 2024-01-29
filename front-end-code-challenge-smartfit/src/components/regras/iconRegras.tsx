@@ -9,6 +9,7 @@ import BebedouroObrigatoria from "@/../public/images/partial-fountain.png";
 
 import VestiarioObrigatorio from "@/../public/images/required-lockerroom.png";
 import VestiarioRecomendada from "@/../public/images/partial-lockerroom.png";
+import VestiarioFechado from "@/../public/images/forbidden-lockerroom.png";
 
 export const iconsRegras = {
   Mascara: {
@@ -39,6 +40,7 @@ export const iconsRegras = {
     titulo: "Vestiario",
     imagem1: VestiarioObrigatorio,
     imagem2: VestiarioRecomendada,
+    imagem3: VestiarioFechado,
     alt: "Vestiario",
     recomendado1: "Obrigatório",
     recomendado2: "Recomendado",
