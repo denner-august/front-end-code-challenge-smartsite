@@ -1,49 +1,38 @@
-import MascaraObrigatoria from "@/../public/images/required-mask.png";
-import MascaraRecomendada from "@/../public/images/recommended-mask.png";
-
-import ToalhaObrigatoria from "@/../public/images/required-towel.png";
-import ToalhaRecomendada from "@/../public/images/recommended-towel.png";
-
-import BebedouroRecomendada from "@/../public/images/forbidden-fountain.png";
-import BebedouroObrigatoria from "@/../public/images/partial-fountain.png";
-
-import VestiarioObrigatorio from "@/../public/images/required-lockerroom.png";
-import VestiarioRecomendada from "@/../public/images/partial-lockerroom.png";
-import VestiarioFechado from "@/../public/images/forbidden-lockerroom.png";
+import { legenda } from "../legenda";
 
 export const iconsRegras = {
   Mascara: {
-    titulo: "Máscara",
-    imagem1: MascaraObrigatoria,
-    imagem2: MascaraRecomendada,
-    alt: "Máscara",
-    recomendado1: "Obrigatório",
-    recomendado2: "Recomendado",
+    titulo: legenda.Mask.title,
+    imagem1: legenda.Mask.required.image,
+    imagem2: legenda.Mask.recommended.image,
+    alt: legenda.Mask.alt,
+    recomendado1: legenda.Mask.required.title,
+    recomendado2: legenda.Mask.recommended.title,
   },
   Toalha: {
-    titulo: "Toalha",
-    imagem1: ToalhaObrigatoria,
-    imagem2: ToalhaRecomendada,
-    alt: "Toalha",
-    recomendado1: "Obrigatório",
-    recomendado2: "Recomendado",
+    titulo: legenda.towel.title,
+    imagem1: legenda.towel.required.image,
+    imagem2: legenda.towel.recommended.image,
+    alt: legenda.towel.alt,
+    recomendado1: legenda.towel.required.title,
+    recomendado2: legenda.towel.recommended.title,
   },
   Bebedouro: {
-    titulo: "Bebedouro",
-    imagem1: BebedouroObrigatoria,
-    imagem2: BebedouroRecomendada,
-    alt: "Bebedouro",
-    recomendado1: "Obrigatório",
-    recomendado2: "Recomendado",
+    titulo: legenda.fountain.title,
+    imagem1: legenda.fountain.required.image,
+    imagem2: legenda.fountain.recommended.image,
+    alt: legenda.fountain.alt,
+    recomendado1: legenda.fountain.required.title,
+    recomendado2: legenda.fountain.recommended.title,
   },
   Vestiario: {
-    titulo: "Vestiario",
-    imagem1: VestiarioObrigatorio,
-    imagem2: VestiarioRecomendada,
-    imagem3: VestiarioFechado,
-    alt: "Vestiario",
-    recomendado1: "Obrigatório",
-    recomendado2: "Recomendado",
-    recomendado3: "Fechado",
+    titulo: legenda.locker_room.title,
+    imagem1: legenda.locker_room.required.image,
+    imagem2: legenda.locker_room.recommended.image,
+    imagem3: legenda.locker_room.not_allowed.image,
+    alt: legenda.locker_room.alt,
+    recomendado1: legenda.locker_room.required.title,
+    recomendado2: legenda.locker_room.recommended.title,
+    recomendado3: legenda.locker_room.not_allowed.title,
   },
 };
