@@ -23,19 +23,19 @@ export function Formulario() {
       <RadioButtons
         register={register("Horario")}
         value="Manhã"
-        funcionamento="06:00 ás 12:00"
+        funcionamento="06:00 às 12:00"
         alt="Manhã"
       />
       <RadioButtons
         register={register("Horario")}
         value="Tarde"
-        funcionamento="12:01 ás 18:00"
+        funcionamento="12:01 às 18:00"
         alt="Tarde"
       />
       <RadioButtons
         register={register("Horario")}
         value="Noite"
-        funcionamento="18:01 ás 23:00"
+        funcionamento="18:01 às 23:00"
         alt="Noite"
       />
 
@@ -46,7 +46,7 @@ export function Formulario() {
             type="checkbox"
             value={"true"}
           />
-          <p>Exibir unindades fechadas</p>
+          <p>Exibir unidades fechadas</p>
         </div>
 
         <p>
@@ -55,8 +55,8 @@ export function Formulario() {
       </div>
 
       <div className={styles.buttons}>
-        <input type="submit" value=" ENCONTRAR UNIDADES" />
-        <button onClick={Limpar}>LIMPAR</button>
+        <input type="submit" value=" Encontrar unidade" />
+        <button onClick={Limpar}>Limpar</button>
       </div>
     </form>
   );
