@@ -1,5 +1,50 @@
 .Container {
-  height: 18rem;
-  width: 15rem;
-  background-color: rgb(172, 172, 172);
+  height: auto;
+  width: 20rem;
+  margin: 0.5rem 0rem;
+
+  background-color: rgb(226, 226, 226);
+  padding: 1rem;
+
+  border-radius: 0.5rem;
+
+  p:nth-child(2) {
+    font-size: 1.3rem;
+    font-weight: bold;
+
+    margin: 0.7rem 0rem;
+  }
+
+  span:nth-child(3) {
+    display: block;
+    margin: 0.7rem 0rem;
+    color: rgb(158, 154, 154);
+  }
+
+  ul {
+    padding-top: 1rem;
+  }
+}
+
+.division {
+  margin: 1rem 0rem;
+  border-top: 2px solid rgb(158, 154, 154);
+}
+
+.semana {
+  display: flex;
+  flex-wrap: wrap;
+
+  p {
+    font-weight: bold;
+  }
+
+  p,
+  li {
+    font-size: 1.3rem;
+  }
+
+  li {
+    margin: 1rem;
+  }
 }
