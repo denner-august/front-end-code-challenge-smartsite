@@ -1,10 +1,6 @@
 .Container {
   height: auto;
-  background-color: red;
-
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
-  flex-direction: row;
-
-  padding: 1rem;
 }
